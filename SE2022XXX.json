@@ -1,0 +1,9 @@
+{
+  "sid": "SE2022XXX",
+  "name": "Name with Initials",
+  "app-url": "https://localhost:5173",
+  "git": "https://github.com/placeholder/secure-stall-reservation",
+  "blog": [
+    "https://placeholder-blog-link.com/secure-stall-reservation"
+  ]
+}

@@ -1,0 +1,9 @@
+package com.example.Book_Fair_Project.exception;
+
+import org.springframework.http.HttpStatus;
+
+public class UnauthorizedException extends RuntimeException {
+    private final HttpStatus status = HttpStatus.UNAUTHORIZED;
+    public UnauthorizedException(String message) { super(message); }
+    public HttpStatus getStatus() { return status; }
+}
